@@ -1,0 +1,49 @@
+.christydivcontainer{
+    text-align: left;
+    display: flex;
+                }
+.temp .right{
+float: right;
+}
+
+body  
+{  
+overflow: hidden;
+width: 100vw;
+height: 100vh;  
+background-color: darkblue;  
+font-family: sans-serif;  
+}
+
+ul{  
+background-color: darkblue;  
+display: inline;  
+align-items: center;
+box-shadow: 0 0 25px 0 black;  
+}
+
+li{
+
+padding: 20px;  
+}
+
+a:hover{
+color: red;
+}
+
+header * {  
+display: inline-flex;  
+}
+
+header li a{
+color: white;
+}
+
+@media screen and(min-width:756px) {
+h1{
+font-size: 100px;
+}
+
+}
+
+
